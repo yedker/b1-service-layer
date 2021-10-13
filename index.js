@@ -29,7 +29,7 @@ class ServiceLayer {
           rejectUnauthorized: false
         }),
         baseURL: `${config.host}:${config.port}/b1s/v2/`,
-        config.headers.Prefer =  'odata.maxpagesize=500000';
+        headers =  {'Prefer': 'odata.maxpagesize=500000'}
       })
     } else {
       this.instance = axios.create({
@@ -37,7 +37,7 @@ class ServiceLayer {
           rejectUnauthorized: false
         }),
         baseURL: `${config.host}/b1s/v2/`,
-        config.headers.Prefer =  'odata.maxpagesize=500000';
+        headers =  {'Prefer': 'odata.maxpagesize=500000'}
       })
     }
 

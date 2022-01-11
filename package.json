@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nestebe/b1-service-layer.git"
+    "url": "https://github.com/yedker/b1-service-layer.git"
   },
   "author": "Nicolas ESTEBE",
   "license": "MIT",
